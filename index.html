@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SantiGarzon1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <style>
+        body {
+            margin-left: 150px;
+            margin-right: 150px;
+            font-family: 'Open Sans';
+        }
         .header {
             background: blue;
         }
@@ -44,6 +50,34 @@
             background-color: blanchedalmond;
             margin: 10px;
 
+        }
+
+        #about h1 {
+            text-align: center;
+        }
+
+        #about p {
+            text-align: center;
+             /*Reducir margenes entre parrafos  */
+            margin: 8px;
+        }
+
+        #about ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #listas {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            margin: 5px;
+        }
+
+        #lista_der {
+            padding-left: 0;
         }
 
         #intro {
@@ -122,6 +156,35 @@
         <img id="img_sgd" src="img/IMG_0934_sqr.jpg" alt="SGD Picture">
 
     </section>
+
+    <section id="about">
+
+        <h1>Quién soy</h1>
+        <p>Me llamo Santiago Garzón Díaz, soy un ingeniero de datos de Colombia, y me gusta generar valor con los datos :)</p>
+        <p>Vivo en Medellín Colombia</p>
+        <p>Actualmente trabajo en el banco más grande de mi país, Bancolombia, como ingeniero de datos en la Vicepresidencia de Negocios para clientes Personas.</p>
+        <div id="listas">
+            <ul>
+                <p>Manejo tecnologías como:</p>
+                <li>Python <3</li>
+                <li>SQL</li>
+                <li>Power BI</li>
+                <li>Spark</li>
+                <li>Entre Otras</li>
+            </ul>
+            <ul id="lista_der">
+                <p>Académicamente me interesan:</p>
+                <li>Las Finanzas Corporativas</li>
+                <li>La Estadística</li>
+                <li>La Economía</li>
+            </ul>
+        </div>
+        <p>Hoy en día mis ínteres profesionales se encuentran en el sector financiero, negocio bancario y negocio Retail.</p>
+        <p>Te invito a conocer más de mis certificados, habilidades y experiencia en mi LinkedIn, también te invito a mi canal de YouTube donde hago videos explicando diferentes tema relacionados con mi profesión, y por último a mi GitHub para que conozcas los proyectos que he desarrollado en mi portafolio</p>
+        <p>Si quieres contactar no dudes en hacerlo :)</p>
+
+    </section>
+
     <section id="intro">
         <section id="introduction">
             <h1>Profesión y Hobbies</h1>
@@ -131,7 +194,7 @@
                 <li>Judoka - Ex Deportista de Allto Rendimiento (Selección Colombia y Antioquia 2011 - 2022)</li>
                 <li>Husky Lover</li>
             </ul>
-        </section id="Experiencia">
+        </section>
         <section id="Experiencia">
             <h1>Experiencia</h1>
             <h2>Bancolombia</h2>
